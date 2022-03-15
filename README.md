@@ -14,7 +14,7 @@ Keeping in mind that this is a 24 hour highly competitive hackathon where we nee
 Now that we have won the hackathon, it is time to actually build the mobile application. It goes without saying that this application should be robust with minimal
 bugs, so that it can be safely deployed and adopted by the ministry. So, in order for us to be conCdent with our code, it is recommended to follow a TDD approach in order to catch bugs early on and make sure that we have a higher overall test coverage. One thing to keep in mind as well is that this application is not a basic CRUD one. It has multiple views with eventual complex operations (like sending vaccine SMS and their reminders, automatically rescheduling missed appointments, etc.).
 
-Having taken all of the above into consideration, I will be applying the MVVM architecture (because of the testing requirements and reducing risks), multiple views and complex logic ) to develop the following use cases in Kotlin :
+Having taken all of the above into consideration, I will be applying the MVVM architecture (because of the ***testing requirements and reducing risks, multiple views and complex logic*** ) to develop the following use cases in Kotlin :
 
 :fast_forward: **Schedule notification at vaccination time.**
 
